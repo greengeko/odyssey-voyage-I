@@ -27,20 +27,6 @@ To run the client:
 1. Open a new terminal window, and navigate to the `client` folder.
 1. Run `npm install & npm start`. This will install all packages in the client and start the application in `localhost:3000`.
 
-### `final` folder
-
-The repo also includes a `final` folder, to show what your code should look like once you've finished the course. You can use it to check your work if you get stuck.
-
-To run the servers in the `final` folder:
-
-1. Open a new terminal window, and navigate to `final/gateway`.
-1. Run `npm install && npm start`. This will install all packages in the main server, then start the main server at `http://localhost:4000`.
-1. Open another new terminal window, and navigate to `final/subgraph-locations`.
-1. Run `npm install && npm start` again. This will install all packages for the `locations` subgraph, then start the subgraph at `http://localhost:4001`.
-1. Open a third new terminal window, and navigate to `final/subgraph-reviews`.
-1. Run `npm install && npm start` again. This will install all packages for the `reviews` subgraph, then start the subgraph at `http://localhost:4002`.
-1. In a web browser, open Apollo Studio Sandbox for `http://localhost:4000`. You should be able to run queries against your gateway server. Some test queries are included in the following section.
-
 ### Queries
 
 1. Get all locations for the homepage.
